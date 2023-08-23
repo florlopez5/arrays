@@ -1,0 +1,16 @@
+Florencia López - 51710597 - G255
+
+1. ¿Qué función te permitió filtrar los elementos "extraños" del array? Explica.
+La función fue filter() y la uso en filteredArray() para que, de cada elemento del array strangeArray, sólo tome aquellos que sean de tipo 'string'.
+
+2. ¿Cómo detectaste el tipo de dato de cada elemento del array? Explica.
+Lo detecté con typeof, en la función se compara el resultado de 'typeof element' con 'string' para ver si el elemento es cadena de texto.
+
+3.¿Has notado que algunas funciones parecen "flechas"? Busca información sobre "funciones flechas" y describe su sintaxis.
+Las arrow functions son una forma más corta de escribir funciones en JS, en vez de escribir 'function' se usa una flecha así '=>'. Esto hace que el código sea más conciso y fácil de leer. La sintaxis de una función flecha es: (parámetros) => expresión. Por ejemplo: (element) => typeof element === 'string' es una función flecha que recibe un parámetro element y devuelve true si el tipo de element es igual a 'string'.
+
+4.¿Qué función te permitió ordenar el array alfabéticamente? Explica.
+La función fue sort(), esta función ordena los elementos de un array en orden alfabético pero sin tener en cuenta minúscular y mayúscula. Para hacer eso usé localeCompare(), es una función que compara cadenas de texto teniendo en cuenta las reglas de ordenamiento específicas de los idiomas.
+
+5. Investiga otra función de los arrays que consideres útil y comparte en qué situaciones se puede utilizar
+Otra función de los arrays que es útil es reverse(), esta función ordena un array de forma descendiente sin crear un nuevo array. Este método puede ser útil para mostrar los últimos comentarios más recientes primero en una página web, ya sea en reseñas, comentarios en fotos, etc.
